@@ -32,16 +32,19 @@ Ricordate di usare il console.log() sia in fase di preparazione e verifica dei d
         - aggiungiamo il colore ai nostri quadratini:
 
             - per i multipli di 3:
-                - stampiamo Fizz al posto dei numeri;
-                - cambiamo il colore al quadratino;
+                - se la i/3 stampa un valore intero:
+                    - stampiamo Fizz al posto dei numeri;
+                    - cambiamo il colore al quadratino;
 
             - per i multipli di 5:
-                - stampiamo Buzz al posto dei numeri;
-                - cambiamo il colore al quadratino;
+                - se la i/5 stampa un valore intero:
+                    - stampiamo Buzz al posto dei numeri;
+                    - cambiamo il colore al quadratino;
 
             - per i multipli di 3 e di 5:
-                - stampiamo FizzBuzz al posto dei numeri;
-                - cambiamo il colore al quadratino;
+                - se la i/3 e /5 stampa un valore intero:
+                    - stampiamo FizzBuzz al posto dei numeri;
+                    - cambiamo il colore al quadratino;
 - 
 
 ## tools

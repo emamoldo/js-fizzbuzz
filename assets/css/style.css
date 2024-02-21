@@ -1,3 +1,4 @@
+/* Color Palette */
 :root {
     --fb-body: #083a4d;
     --fb-title-text: #fefeff;
@@ -7,21 +8,28 @@
     --fb-fizzbuzz-bgc: #f1466e;
 }
 
+
+/* Body */
 body {
     background-color: var(--fb-body);
 }
 
+/*  Container */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+/* /Container */
 
+/* Title  */
 .title {
     color: var(--fb-title-text);
     font-size: 30px;
 }
+/* /Title */
 
+/* List  */
 #list {
     width: 80%;
     max-width: 800px;
@@ -34,7 +42,9 @@ body {
 .box {
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: var(--fb-number-bgc);
     text-align: center;
     line-height: 100px;
 }
+/* /List */
+/* /Bosy */
