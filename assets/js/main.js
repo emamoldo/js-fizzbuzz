@@ -17,9 +17,9 @@ for (let i = 1; i <= 35; i++) {
     const remainder3 = i % three
     if (remainder3 === 0) {
         console.log("Fizz");
+        remainder3.innerHTML += `<li class="box">${remainder3}</li>`;
     }
     
-
     const remainder5 = i % five
     if (remainder5 === 0) {
         console.log("Buzz");
