@@ -1,30 +1,25 @@
 // Creating a for cicle with numbers that goes from 1 to 100;
 
 
-// Const
-const three = 3;
-const five = 5;
-
-
 // Cicle that goes from 1 to 100;
-const elementList = document.getElementById("list")
+const elementList = document.getElementById("list");
 
 for (let i = 1; i <= 35; i++) {
 
-    console.log(i);
-    elementList.insertAdjacentHTML('beforeend', `<li class="box">${i}</li>`)
 
-    const remainder3 = i % three
-    if (remainder3 === 0) {
+    elementList.insertAdjacentHTML('beforeend', `<li class="box">${i}</li>`);
+
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log("FizzBuzz");
+
+    } else if (i % 3 == 0) {
         console.log("Fizz");
-        remainder3.innerHTML += `<li class="box">${remainder3}</li>`;
+    } else if (i % 5 == 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
     }
     
-    const remainder5 = i % five
-    if (remainder5 === 0) {
-        console.log("Buzz");
-    }
-
 }
 
 
