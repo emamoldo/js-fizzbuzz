@@ -46,5 +46,17 @@ body {
     text-align: center;
     line-height: 100px;
 }
+
+.fizzbuzz{
+    background-color: var(--fb-fizzbuzz-bgc);
+}
+
+.fizz{
+    background-color: var(--fb-fizz-bgc);
+}
+
+.buzz{
+    background-color: var(--fb-buzz-bgc);
+}
 /* /List */
 /* /Bosy */
