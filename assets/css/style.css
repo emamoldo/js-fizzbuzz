@@ -7,3 +7,34 @@
     --fb-fizzbuzz-bgc: #f1466e;
 }
 
+body {
+    background-color: var(--fb-body);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: var(--fb-title-text);
+    font-size: 30px;
+}
+
+#list {
+    width: 80%;
+    max-width: 800px;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    line-height: 100px;
+}
